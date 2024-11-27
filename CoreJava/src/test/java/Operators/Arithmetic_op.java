@@ -5,25 +5,34 @@ package Operators;
 public class Arithmetic_op {
   
    public static void main(String[] args) {
-	 int a=10;
-	  int b=40;
-	  
-	  int addition =a+b;
-	  System.out.println("Addition : "+addition);
-	  
-	  int subscription=b-a;
-	  System.out.println("Subscription : "+subscription);
+	 
+		    
+		        int a = 10;
+		        int b = 3;
 
-	   int multipication=a*b;
-	   System.out.println("Multipication :" +multipication);
+		        // Addition
+		        int addition = a + b;
+		        System.out.println("Addition: " + addition);  // 10 + 3 = 13
 
-	   int devide =b/a;
-	   System.out.println("deviding " +devide);
+		        // Subtraction
+		        int subtraction = a - b;
+		        System.out.println("Subtraction: " + subtraction);  // 10 - 3 = 7
 
-	   int module=b%a;
-	   System.out.println("Module "+module);
+		        // Multiplication
+		        int multiplication = a * b;
+		        System.out.println("Multiplication: " + multiplication);  // 10 * 3 = 30
 
-	   
-		   
-		   }
+		        // Division
+		        int division = a / b;
+		        System.out.println("Division: " + division);  // 10 / 3 = 3 (integer division)
+
+		        // Modulus
+		        int modulus = a % b;
+		        System.out.println("Modulus: " + modulus);  // 10 % 3 = 1 (remainder)
+
+		        // Floating-point Division
+		        double floatDivision = (double) a / b;
+		        System.out.println("Floating-point Division: " + floatDivision);  // 10.0 / 3 = 3.33333...
+		    }
+		
 }
