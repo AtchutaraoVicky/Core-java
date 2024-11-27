@@ -13,5 +13,17 @@ public class Arithmetic_op {
 	  
 	  int subscription=b-a;
 	  System.out.println("Subscription : "+subscription);
-}
+
+	   int multipication=a*b;
+	   System.out.println("Multipication :" +multipication);
+
+	   int devide =b/a;
+	   System.out.println("deviding " +devide);
+
+	   int module=b%a;
+	   System.out.println("Module "+module);
+
+	   
+		   
+		   }
 }
